@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 .container{
     margin: 0 auto;
     text-align: center;
+    padding: 20px;
 }
 
 .button{
@@ -19,14 +20,22 @@
 }
 
 .griglia{
-    display: flex;
     flex-wrap: wrap;
+    padding-top: 50px;
+    width: 1000px;
+    margin: 0 auto;
+    display: none;
 }
 
 .celle{
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
     aspect-ratio: 1;
+}
+
+.active{
+    display: flex;
 }
