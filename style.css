@@ -24,7 +24,7 @@
     padding-top: 50px;
     width: 1000px;
     margin: 0 auto;
-    display: none;
+    display: flex;
 }
 
 .celle{
@@ -36,6 +36,18 @@
     aspect-ratio: 1;
 }
 
-.active{
-    display: flex;
+.bg-red{
+    background-color: darkred;
+    color: white;
+}
+
+.bg-green{
+    background-color: green;
+    color: white;
+}
+
+.risultato{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
 }
